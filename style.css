@@ -2,24 +2,118 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-};
-
-body{
-   width: 80%;
-    height: 100vh;
-    background-color: black;
 }
-.header-section{
-    width: 100%;
+.header{
+    background-color: #ffffff;
+    /* width: 100%; */
     height: 15vh;
-    background-color: black;
+    box-shadow: 0px 10px 9px -3px rgba(0,0,0,0.1);
 }
+
+/* info section */
+
 .info-head{
     width: 100%;
-    height: 4vh;
+    height: 5vh;
     background-color: #f7f7f7;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #23282d;
-};
+    margin-bottom: 25px;
+}
+.info-head p{
+     margin-left: 30px;
+     color: #33323f;
+}
+
+/* navbar section */
+
+.nav-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.content-margin{
+    max-width: 95%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+     
+     
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+    
+        
+}
+.nav-category-drop i{
+    color: #33323f;
+    font-size: 0.6rem;
+    
+        
+}
+.nav-gap{
+    text-decoration: none;
+    color: #33323f;
+    text-size-adjust: 1.5rem;   
+}
+
+.fa-circle-chevron-down .fa-duotone{
+    color: blueviolet;   
+}
+.navbar a{
+    text-decoration: none;
+    color: #33323f;
+}
+
+/* logo section */
+
+.logo-sections{
+    margin-right: 4rem;
+}
+
+/* Social Icons section */
+
+.nav-sections{
+    display: flex;
+    gap: 1.5rem;
+    color: #313038;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav-sections i{
+     font-size: 20px;
+}
+.social i{
+    margin-right: 20px;
+}
+.cart-section{
+   
+    
+}
+.cart-section span{
+    margin-right: 10px;
+}
+.cart-section p{
+    position: absolute;
+    top: 2px;
+    right: 2rem;
+    color: #ffffff;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #313038;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    
+}
+
+/* end of header section  */
