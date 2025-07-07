@@ -1201,7 +1201,7 @@ color: var(--primary-color);
         align-items: center;
         text-align: center;
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 18px;
     }
     
     
