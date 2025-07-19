@@ -2222,6 +2222,15 @@ width: 100%;
     border: none;     
 
 }
+/* --------------------------------------------------- */
+
+@media(max-width: 480px) {
+    .banner_wrap h1{
+    font-size: 40px;
+    
+    }
+}
+
 /* end Banner */
 
 /* start of Blog */
