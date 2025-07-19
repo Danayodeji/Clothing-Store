@@ -865,7 +865,7 @@ body {
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 195rem;
+        top: 219rem;
         left: 0;
        
     }
@@ -2241,13 +2241,17 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: #f7f7f7;
-height: 60vh;
+height: auto;
 }
 .blog-wrap{
     display: flex;
     justify-content: center;
     align-items: center; 
-    gap: 40px;
+    gap: 5%;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+   
      
       
 }
@@ -2255,20 +2259,21 @@ height: 60vh;
     display: flex;
     flex-direction: column;
     row-gap: 5px;
-    width: 380px;
+    width: 30%;
+    height: 65vh;
     
 }
 .blog-content img{
-    width: 380px;
+    width: 100%;
          
 }
 .blog-content h3{
     font-size: 1.5em; 
-    width: 350px;    
+    width: 100%;    
 }
 .blog-content p{
     font-size: 1.2em;
-    width: 380px;
+    width: 100%;
        
 }
 
@@ -2291,27 +2296,57 @@ height: 60vh;
 }
     
 }
+
+@media (min-width: 480px) and (max-width: 992px) {
+    
+    .blog-wrap{
+   
+       
+    }
+    .blog-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        width: 45%;
+        height: auto;
+        padding-bottom: 5%;
+        
+    }
+    .blog-content img{
+        width: 100%;
+                
+    }
+    .blog-content h3{  
+        width: 100%;    
+    }
+    .blog-content p{       
+        width: 100%;        
+    }
+}
 /* end of Blog */ 
 
 /* start News letter */
 .newsletter{
     width: 100%;
-    height: 30vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5% 0px;
 }
 .newsletter-wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 90%;
+    height: auto;
   
 }
 .newsletter-content{
     display: flex;
     flex-direction: column;
     row-gap: 8px;
+    height: auto;
 }
 .newsletter-content i{
     font-family: "Font Awesome 5 Free";
