@@ -1663,7 +1663,7 @@ body {
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 109.8rem;
+        top: 104.9rem;
     }
     .new-arivals-content{
         display: flex;
@@ -1746,7 +1746,7 @@ body {
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 125.6rem;
+        top: 124.4rem;
     }
     .new-arivals-content{
         display: flex;
@@ -1982,74 +1982,96 @@ body {
 .testimonial{
     
     width: 100%;
-    height: auto;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2% 0px;
+    
 }
 .testimonial h1{
     font-size: 4em;
     color: #5d4544;
 }
-.swiper{
-  width: 95%;
-  height: 300px;
-
-  
-   .swiper-slide{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-            
-    }
-}
-.b-nav {
-    font-size: 9px;
-    color: #5d4544;
+.swiper-1{
+    max-width: 900px;
+    width: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;   
 }
 
-.testimonial-content-holder{
-    background-color: #f7f7f7;
-    height: auto;
-    padding: 2% 0px;
-    
-}
-
-
-.swiper-wrapper h1{
-    font-size: var(--heading1);
-    color: var(--primary-color);
-   
-
-}
-.swiper-slide h4{
-    font-size: 1.1em;
-    width: 450px;
-    text-align: center;
-    width: 70%;
-  
-}
-.user{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
-    
-
-}
-.user img{
+.slide img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
     border-radius: 50%;
-    border: 3px solid var(--primary-color);
-    font-weight: 900;
-}
-.user p{
-    color: var(--primary-color);
 }
 
+.mySwiper .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+  height: 100%;
+ 
+}
+.slide p {
+    width:75%;
+  text-align: center;
+  padding: 0 160px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+.slide .quote-icon {
+  font-size: 30px;
+  color: #5d4544;
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+/* swiper button css */
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 20px;
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.swiper-pagination-bullet-active {
+  background-color: #5d4544 !important;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: #5d4544 !important;
+    
+}
 /*  Mobile 480px */
 
 @media (max-width:480px) {
@@ -2093,6 +2115,14 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+}
 
 
 /* end testimonial */
