@@ -188,7 +188,7 @@ body {
     display: none;
     row-gap: 3%;
     padding: 5% 3%;
-    backdrop-filter: blur(90px);
+    backdrop-filter: blur(30px);
     }
 
     .sidebar .navbar{
