@@ -503,13 +503,13 @@ body {
         -webkit-backdrop-filter: blur(4.1px);
     }
     .caption h1{
-        font-size: 6rem;
+        font-size: 7rem;
         width: 100%;
         letter-spacing: 6px;
         line-height: 110px;
     }
     .caption h4{
-        font-size: 30px;
+        font-size: 34px;
         width: 80%;
         align-self: first baseline;
         letter-spacing: 1px;
@@ -621,14 +621,14 @@ body {
         color: var(--primary-color);
     }
     .caption h1{
-        font-size: 8em;
+        font-size: 10em;
         width: 40%;
         letter-spacing: 6px;
         line-height: 110px;
             
     }
     .caption h4{
-        font-size: 25px;
+        font-size: 30px;
         width: 100%;
         margin-bottom: 30px;
     }
@@ -2287,12 +2287,12 @@ body {
   align-items: center;
 }
 .details .name {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
   color: #333;
 }
 .details .job {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   color: #333;
 }
@@ -2630,7 +2630,7 @@ height: auto;
 .subscription-form input{
     width: 100%;
     border: 1px solid #d8d0bb; 
-    padding: 4% 200px 4% 4%;
+    padding: 4% 100px 4% 4%;
     border-radius: 2px; 
     font-size: 15px;
 }
