@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google icon  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- swiper link  -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-       <!-- Boxicons CSS -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -22,7 +24,7 @@
 
         <!-- info section -->
 
-        <div class="info-head">         
+        <div class="info-head">
             <p>Summer Sale. up to 40% off.</p>
         </div>
 
@@ -62,6 +64,70 @@
                     </div>
                 </div>
             </div>
+
+            <!-- logo -->
+            <div class="logo-sections-mobile">
+                <img src="./image/site-logo.svg" alt="">
+            </div>
+
+            <div class="menu" onclick="showSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"
+                    fill="#5d4544">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+
+
+            <!-- SIDE BAR -->
+
+            <div class="sidebar">
+
+                <div class="menu" onclick="hideSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"
+                        fill="#5d4544">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </div>
+
+                <hr>
+                <nav class="navbar">
+                    <i class="fa-solid fa-magnifying-glass nav-gap"></i>
+                    <div class="nav-category-drop nav-gap">
+                        <a href="">Shop By Category</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="nav-gap"><a href="">New Arrivals</a>
+                    </div>
+                    <div class="nav-gap"><a href="">Collections</a></div>
+                </nav>
+
+                <hr>
+                <!-- social icons -->
+                <div class="nav-sections">
+
+                    <div class="cart-section">
+                        <span>$0.00</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>0</p>
+                    </div>
+                    <div class="profile">
+                        <i class="fa-solid fa-user"></i>
+                        <P>Profile</P>
+                    </div>
+
+                    <hr>
+
+                    <div class="social">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </header>
 
@@ -231,12 +297,12 @@
     <section class="testimonial">
         <h1>Testimonials</h1>
         <div class="mySwiper swiper-1">
-            <div class="testi-content swiper-wrapper">            
+            <div class="testi-content swiper-wrapper">
                 <div class="slide swiper-slide">
                     <img src="./image/user1.jpg" alt="">
                     <p>"Gravida lorem id vitae pulvinar praesent aliquet pellentesque non quam viverra cursus nulla mi
                         consectetur tempor sed lectus ultricies urna risus sit."</p>
-                    
+
                     <i class="bx bxs-quote-alt-left quote-icon"></i>
                     <div class="details">
                         <span class="name">Marnie Lotter</span>
@@ -247,19 +313,19 @@
                     <img src="./image/user2.jpg" alt="">
                     <p>"Gravida lorem id vitae pulvinar praesent aliquet pellentesque non quam viverra cursus nulla mi
                         consectetur tempor sed lectus ultricies urna risus sit."</p>
-                    
+
                     <i class="bx bxs-quote-alt-left quote-icon"></i>
                     <div class="details">
                         <span class="name">Luis Carlos</span>
                         <span class="job">Web Developer</span>
                     </div>
                 </div>
-                
+
                 <div class="slide swiper-slide">
                     <img src="./image/user3.jpg" alt="">
                     <p>"Gravida lorem id vitae pulvinar praesent aliquet pellentesque non quam viverra cursus nulla mi
                         consectetur tempor sed lectus ultricies urna risus sit."</p>
-                    
+
                     <i class="bx bxs-quote-alt-left quote-icon"></i>
                     <div class="details">
                         <span class="name">Alicia Stone</span>
@@ -270,14 +336,14 @@
                     <img src="./image/user4.jpg" alt="">
                     <p>"Gravida lorem id vitae pulvinar praesent aliquet pellentesque non quam viverra cursus nulla mi
                         consectetur tempor sed lectus ultricies urna risus sit."</p>
-                    
+
                     <i class="bx bxs-quote-alt-left quote-icon"></i>
                     <div class="details">
                         <span class="name">Matthew Johnson</span>
                         <span class="job">Web Developer</span>
                     </div>
                 </div>
-                         
+
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -286,7 +352,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
-           
+
         </div>
     </section>
 
@@ -372,7 +438,7 @@
                 </form>
 
             </div>
-            
+
         </div>
     </section>
 
@@ -385,7 +451,8 @@
             <!-- footer logo -->
             <div class="footer-logo">
                 <img src="./image/site-logo-white.svg" alt="">
-                <p>Pulvinar aenean dignissim porttitor sed risus urna,Pulvinar aenean dignissim porttitor sed risus urna pretium quis non id.</p>
+                <p>Pulvinar aenean dignissim porttitor sed risus urna,Pulvinar aenean dignissim porttitor sed risus urna
+                    pretium quis non id.</p>
                 <div class="footer-social">
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-square-facebook"></i>
@@ -393,9 +460,9 @@
 
                 </div>
             </div>
-                    <!-- footer menu wrapper -->
+            <!-- footer menu wrapper -->
             <div class="footer-content-wrapper">
-                
+
 
                 <div class="footer-content">
                     <h3>Information</h3>
@@ -435,7 +502,7 @@
             </div>
 
         </div>
-<!-- horizontal line -->
+        <!-- horizontal line -->
         <hr class="thin-line">
 
         <!-- copyright -->
@@ -450,16 +517,16 @@
             </div>
         </div>
 
-        
+
     </footer>
 
 
     <!-- end of Footer -->
 
     <!-- swiper js -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-     <script src="script.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
