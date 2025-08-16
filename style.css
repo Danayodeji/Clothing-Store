@@ -1033,11 +1033,11 @@ body {
    
     .new-arivals{
         width: 100%;
-        height: 8vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 229rem;
+        top: 233rem;
         left: 0;
        
     }
@@ -1109,7 +1109,7 @@ body {
 
 /* Responsiveness for Mobile 400px */
 
-@media (max-width: 1100px){
+@media (max-width: 1279px){
 
     .New_Arival_hold {
       
@@ -1190,90 +1190,6 @@ body {
     }
 
 }
-    /* Wide Screens - 1100px and up */
-@media (min-width: 1101px) and (max-width: 1279px) {
-        .New_Arival_hold {
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .new-arival-top{
-        display: flex;
-        width: 100%;
-        height: 100vh;
-        background-color: #f7f7f7;
-        
-    }
-    .white{
-        width: 50%;
-        height: auto;
-        background-color: #ffffff;
-    }
-
-    .new-arivals{
-        width: 100%;
-        height: 85vh;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 94.6rem;
-    }
-    .new-arivals-content{
-        display: flex;
-        background-color: transparent;
-        
-    }
-
-    .new-arivals-content img{
-        width: 800px;
-        object-fit: cover;
-        
-    }
-    .new-arivals-caption h1{
-        
-        margin-left: -5rem;
-        margin-top: -7rem;
-        color: var(--primary-color);
-        width: 14rem;
-        
-    }
-    .new-arivals-caption hr{
-        width: 6rem;
-        height: 3.5px;
-        background-color: black;
-        margin-top: 4rem;
-        margin-left: -1.5rem;
-        margin-bottom: 4rem;
-    }
-    .new-arivals-caption h4{
-        font-size: 2.3em;
-        width: 60%;
-        margin-left: 2rem;
-    }
-    .new-btn{
-        margin: 2rem 0 0 2rem;
-        padding: 14px 18px;
-        background-color: transparent;
-        border: 2px solid var(--primary-color);
-        color: var(--primary-color);
-        font-size: 1.5em;
-        transition: all 0.3s ease;
-    }
-    .new-btn:hover{
-        margin: 2rem 0 0 2rem;
-        padding: 14px 18px;
-        background-color: var(--primary-color);
-        color: #ffffff;
-        cursor: pointer;
-    }
-            
-      
-}
-
  /* Wide Screens - 1100px and up */
 @media (min-width: 1280px) and (max-width: 1399px){
         .New_Arival_hold {
@@ -1304,174 +1220,7 @@ body {
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 109.5rem;
-    }
-    .new-arivals-content{
-        display: flex;
-        background-color: transparent;
-        
-    }
-
-    .new-arivals-content img{
-        width: 800px;
-        object-fit: cover;
-        
-    }
-    .new-arivals-caption h1{
-        
-        margin-left: -5rem;
-        margin-top: -7rem;
-        color: var(--primary-color);
-        width: 14rem;
-        
-    }
-    .new-arivals-caption hr{
-        width: 6rem;
-        height: 3.5px;
-        background-color: black;
-        margin-top: 4rem;
-        margin-left: -1.5rem;
-        margin-bottom: 4rem;
-    }
-    .new-arivals-caption h4{
-        font-size: 2.3em;
-        width: 60%;
-        margin-left: 2rem;
-    }
-    .new-btn{
-        margin: 2rem 0 0 2rem;
-        padding: 14px 18px;
-        background-color: transparent;
-        border: 2px solid var(--primary-color);
-        color: var(--primary-color);
-        font-size: 1.7em;
-        transition: all 0.3s ease;
-    }
-    .new-btn:hover{
-        margin: 2rem 0 0 2rem;
-        padding: 14px 18px;
-        background-color: var(--primary-color);
-        color: #ffffff;
-        cursor: pointer;
-    }
-            
-      
-}
-/* Wide Screens - 1400px and up */
-@media (min-width: 1400px) and (max-width: 1599px) {
-        .New_Arival_hold {
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .new-arival-top{
-        display: flex;
-        width: 100%;
-        height: auto;
-        background-color: #f7f7f7;
-        
-    }
-    .white{
-        width: 50%;
-        height: auto;
-        background-color: #ffffff;
-    }
-
-    .new-arivals{
-        width: 100%;
-        height: auto;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 110rem;
-    }
-    .new-arivals-content{
-        display: flex;
-        background-color: transparent;
-        
-    }
-
-    .new-arivals-content img{
-        width: 800px;
-        object-fit: cover;
-        
-    }
-    .new-arivals-caption h1{
-        
-        margin-left: -5rem;
-        margin-top: -7rem;
-        color: var(--primary-color);
-        width: 40%;
-        background-color: #333;
-        
-    }
-    .new-arivals-caption hr{
-        width: 6rem;
-        height: 3.5px;
-        background-color: black;
-        margin-top: 4rem;
-        margin-left: -1.5rem;
-        margin-bottom: 4rem;
-    }
-    .new-arivals-caption h4{
-        font-size: 2.3em;
-        width: 60%;
-        margin-left: 2rem;
-    }
-    .new-btn{
-        margin: 2rem 0 0 2rem;
-        padding: 14px 18px;
-        background-color: transparent;
-        border: 2px solid var(--primary-color);
-        color: var(--primary-color);
-        font-size: 1.7em;
-        transition: all 0.3s ease;
-    }
-    .new-btn:hover{
-        margin: 2rem 0 0 2rem;
-        padding: 14px 18px;
-        background-color: var(--primary-color);
-        color: #ffffff;
-        cursor: pointer;
-    }
-            
-      
-}
-/* Wide Screens - 1400px and up */
-@media (min-width: 1600px ) {
-        .New_Arival_hold {
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .new-arival-top{
-        display: flex;
-        width: 100%;
-        height: 100vh;
-        background-color: #f7f7f7;
-        
-    }
-    .white{
-        width: 50%;
-        height: auto;
-        background-color: #ffffff;
-    }
-
-    .new-arivals{
-        width: 100%;
-        height: 85vh;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 127.7rem;
+        top: 109.9rem;
     }
     .new-arivals-content{
         display: flex;
